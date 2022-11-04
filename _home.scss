@@ -46,6 +46,8 @@ body {
     }
   }
   .tips-box {
+    position: relative;
+    z-index: 10;
     width: 95%;
     margin: 0 auto;
     .tips-and-rule {
