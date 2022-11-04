@@ -1,0 +1,85 @@
+@media screen and (max-width:1170px) {
+    body{ 
+        .home-box {
+            #logo {
+                width: 90%;
+            }
+            
+        }
+
+    }
+}
+
+
+@media screen and (min-width: 300px) {
+body {
+    .home-box{
+        padding-top: 25px;
+        .choice {
+             padding-top:50px;
+             .menu-box {
+                font-size: 30px;
+                display: block;
+                margin: 0 auto;
+                max-width: 300px;
+                margin-bottom: 50px;
+             }
+        }
+    }
+
+
+
+        #sushifoto1 {
+                position: absolute;
+                left: 55%;
+                bottom: -11%;
+        }
+
+        #sushifoto2 {
+            position:absolute;
+            right:55%;
+            bottom: -11%;
+            max-width: 100%;
+            width: 490px;
+        }
+        #sushifoto3 {
+            display: none;
+        }
+        #sushifoto4 {
+            display: none;
+        }
+    
+}
+
+}
+
+@media screen and (min-width:1000px) {
+
+    #sushifoto3 {
+        
+        position: absolute;
+        left: 70%;
+        bottom: 35%;
+    }
+
+    #sushifoto4 {
+        
+        position:absolute;
+        right: 70%;
+        max-width: 100%;
+        bottom: 35%;
+        width: 700px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+

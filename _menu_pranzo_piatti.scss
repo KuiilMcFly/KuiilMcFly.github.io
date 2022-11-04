@@ -1,0 +1,99 @@
+body {
+    
+    main {
+        .container-cibo {
+
+            #gratis {
+                font-size: 15px;
+            }
+            
+            overflow: hidden;
+            margin-bottom: 30px;
+
+            .g16 {
+                margin: 0 auto;
+                width: 350px;
+                img {
+                    max-width: 100%;
+                }
+                
+            }
+            .flex-titles {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                text-align: center;
+                gap: 20px;
+                
+            }
+            .prezzo {
+                text-align: center;
+                font-size: 24px;
+            }
+            color: white;
+            border: solid 1px red;
+            border-radius: 15px;
+            background-color: rgba(78, 78, 78, 0.55);
+            h2 {
+                background-color: #E30713;
+                text-align: left;
+                width: max-content;
+                border-top-right-radius: 15px;
+                border-bottom-right-radius: 15px;
+                padding: 6px;
+                
+            }
+
+            .codice-piatto {
+                color: white;
+                font-weight: bolder;
+                font-size: 24px;
+                padding: 5px;
+                text-align: center;
+                
+            }
+
+            .info-piatto {
+                text-align: center;
+                font-size: 18px;
+            }
+            .triplo-piatto {
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                border-bottom: solid 4px red;
+                margin: 0 5px;
+                margin-bottom: 10px;
+                border-radius: 15px;
+                .price-and-title {
+                    
+                    padding: 10px;
+                }
+                
+                justify-content: space-around;
+                padding-bottom: 20px;
+                img {
+                    width: 200px;
+                }
+            }
+
+            .nigiri {
+                width: 400px;
+                img {
+                    max-width: 100%;
+                }
+            }
+
+            .barca {
+                img {
+                    max-width: 100%;
+                }
+            }
+            
+        }
+    }
+    ol {
+        margin: 0;
+    }
+    
+}

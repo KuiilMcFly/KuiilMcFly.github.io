@@ -1,0 +1,38 @@
+.K-li1 {
+    list-style-type: "K1. ";
+}
+
+.K-li2 {
+    list-style-type: "K2. ";
+}
+
+.K-li11 {
+    list-style-type: "K11. ";
+}
+
+.cucina-list {
+    font-weight: bold;
+    color: white;
+    
+    .cucina-elements {
+        display: flex;
+        flex-wrap: wrap;
+        
+        justify-content: center;
+    }
+    
+    .li-price-container {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        flex-direction: column;
+        border-bottom: solid 4px red;
+        border-radius: 10px;
+        width: 45%;
+        margin: 0 5px;
+        margin-bottom: 10px;
+        
+        
+        
+    }
+}

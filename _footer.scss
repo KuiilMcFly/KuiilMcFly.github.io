@@ -1,0 +1,32 @@
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(47, 47, 47);
+    color: white;
+
+    img {
+        width: 50%;
+        height: 50px;
+    }
+
+    .footer-info {
+        text-align: center;
+        padding: 10px;
+        a {
+            
+            text-decoration: none;
+            color: white;
+            i {
+                font-size: 40px;
+                padding-right: 10px;
+                
+            }
+        }
+
+    }
+}
+.copyright {
+    color: white;
+    font-size: 12px;
+}

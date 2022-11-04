@@ -1,0 +1,76 @@
+body {
+  font-family: 'Century Gothic', sans-serif;
+  main {
+    position: relative;
+    overflow: hidden;
+    min-height: 100vh;
+  }
+  background: -webkit-linear-gradient(rgb(28, 28, 28), rgb(72, 72, 72), rgb(28, 28, 28), rgb(72, 72, 72))
+    no-repeat;
+    min-height: 100vh;
+    text-align: center;
+
+  .home-box {
+    #logo {
+      margin: 0 auto;
+      z-index: 3;
+    }
+    .choice {
+      z-index: 3;
+
+      div {
+        max-width: max-content;
+        margin: 0 auto;
+      }
+      
+    
+
+      .menu-box {
+        background-color: rgb(222, 197, 142);
+        border-radius: 15px;
+        text-align: center;
+        padding: 20px;
+        box-shadow: 10px 20px 6px -5px rgba(0, 0, 0, 0.463);
+        border: solid 1px rgba(255, 0, 0, 0.702);
+        display: inline-block;
+        width: 270px;
+      }
+
+      a {
+        display: inline-block;
+        text-decoration: none;
+        color: black;
+        max-width: max-content;
+        
+      }
+    }
+  }
+  .tips-box {
+    width: 95%;
+    margin: 0 auto;
+    .tips-and-rule {
+        z-index: 800;
+        
+        background: rgba(66, 66, 66, 0.55);
+        backdrop-filter: blur(12px);
+        border-radius: 15px;
+        box-shadow: inset 0 0 10px #E30713;
+        padding: 15px;
+        h2 {
+            
+            color: red;
+            text-align: center;
+        }
+        #bolder-p {
+            font-weight: bold;
+            text-shadow: -1px 0 red, 0 1px red, 1px 0 red, 0 -1px red;
+        }
+        p {
+            
+            color: white;
+            font-size: 18px;
+        }  
+    }
+    //immagine di backdrop
+}
+}
