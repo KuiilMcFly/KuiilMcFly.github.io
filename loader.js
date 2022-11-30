@@ -1,4 +1,4 @@
-$(window).on("load",function(){
-    $(".loader-wrapper").fadeOut("slow");
-    $("body").removeClass("preload");
-});
+var loader = document.getElementById("preloader");
+window.addEventListener("load", function(){
+    loader.style.display = "none";
+})
