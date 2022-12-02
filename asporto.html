@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<!-- Poppins -->
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Asporto | Sushi Liu</title>
+</head>
+<body>
+  <!-- PRELAODER -->
+  <div id="preloader"></div>
+
+  <style>
+    #preloader {
+  background: #000 url(images/loader.gif.gif)no-repeat center center;
+  background-size: 80%;
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+}
+  </style>
+
+    <main>
+        <div class="navbar">
+
+            <div id="menu">
+                <div id="menu-bar" onclick="menuOnClick()">
+                  <div id="bar1" class="bar"></div>
+                  <div id="bar2" class="bar"></div>
+                  <div id="bar3" class="bar"></div>
+                </div>
+                <nav class="nav" id="nav">
+                  <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="menu_pranzo.html">Menù Pranzo</a></li>
+                    <li><a href="menu_cena.html">Menù Cena</a></li>
+                  </ul>
+                </nav> 
+            </div>
+              
+            <div class="menu-bg" id="menu-bg"></div>
+
+            <div class="logo-container">
+              <img src="images/background2.png" alt="" style="width: 300px; ;">
+            </div>
+        </div>
+
+        <!-- ALLERGENI -->
+        <div class="allergeni">
+            <h1>ATTENZIONE</h1>
+            <p>Se hai delle allergie o intolleranze alimentari chiedi pure
+              informazioni sul nostro cibo e sulle nostre bevande.
+            </p>
+            <p>Siamo preparati per consigliarti nel migliore dei modi.</p>
+            <p>Tutti i piatti potrebbero presentare tracce di sesamo o soia.</p>
+            <h2>Allergeni presenti</h2>
+            <div class="griglia-allergeni">
+              <div class="allergene-icon"><img src="imagespranzo/Arachidi.png" alt=""></div>
+              <div class="allergene-icon"><img src="imagespranzo/Cereali.png" alt=""></div>
+              <div class="allergene-icon"><img src="imagespranzo/Crostacei.png" alt=""></div>
+              <div class="allergene-icon"><img src="imagespranzo/Diossido di zolfo.png" alt=""></div>
+              <div class="allergene-icon"><img src="imagespranzo/latte.png" alt=""></div>
+              <div class="allergene-icon"><img src="imagespranzo/lupini.png" alt=""></div>
+              <div class="allergene-icon"><img src="imagespranzo/molluschi.png" alt=""></div>
+              <div class="allergene-icon"><img src="imagespranzo/Noci.png" alt=""></div>
+              <div class="allergene-icon"><img src="imagespranzo/Pesce.png" alt=""></div>
+              <div class="allergene-icon"><img src="imagespranzo/Sedano.png" alt=""></div>
+              <div class="allergene-icon"><img src="imagespranzo/Semidisedano.png" alt=""></div>
+              <div class="allergene-icon"><img src="imagespranzo/Senape.png" alt=""></div>
+              <div class="allergene-icon"><img src="imagespranzo/soia.png" alt=""></div>
+              <div class="allergene-icon"><img src="imagespranzo/uova.png" alt=""></div>
+  
+  
+            </div>
+            <p id="surgelati">Per motivi stagionali i gamberi, i gamberoni, i calamari ed il pollo potrebbero essere surgelati
+              all'origine o acquistati freschi e surgelati da noi con abbatitore di temperatura per la corretta conservazione
+              nel rispetto della normativa sull'aria.
+            </p>
+          </div>
+          <h1 id="menu-title">Asporto</h1>
+
+          <!-- Asporto -->
+        <div class="container-cibo">
+            <h2 class="titolo-piatto">Asporto</h2>
+            
+            <div class="triplo-piatto">
+              <div class="price-and-title">
+                <p class="codice-piatto">1</p>
+                <p>-----------------.</p>
+                <p class="prezzo">€ -,--</p>
+              </div>
+              <img style="border-radius: 15px; border: solid 2px rgba(255, 0, 0, 0.628);" src="piattiPranzo/t1.jpg" alt="">
+            </div>
+
+            <div class="triplo-piatto">
+                <div class="price-and-title">
+                  <p class="codice-piatto">2</p>
+                  <p>-----------------.</p>
+                  <p class="prezzo">€ -,--</p>
+                </div>
+                <img style="border-radius: 15px; border: solid 2px rgba(255, 0, 0, 0.628);" src="piattiPranzo/t2.jpg" alt="">
+              </div>
+
+              <div class="triplo-piatto">
+                <div class="price-and-title">
+                  <p class="codice-piatto">3</p>
+                  <p>-----------------.</p>
+                  <p class="prezzo">€ -,--</p>
+                </div>
+                <img style="border-radius: 15px; border: solid 2px rgba(255, 0, 0, 0.628);" src="piattiPranzo/t3.jpg" alt="">
+              </div>
+
+              <div class="triplo-piatto">
+                <div class="price-and-title">
+                  <p class="codice-piatto">4</p>
+                  <p>-----------------.</p>
+                  <p class="prezzo">€ -,--</p>
+                </div>
+                <img style="border-radius: 15px; border: solid 2px rgba(255, 0, 0, 0.628);" src="piattiPranzo/t4.jpg" alt="">
+              </div>
+
+              <div class="triplo-piatto">
+                <div class="price-and-title">
+                  <p class="codice-piatto">5</p>
+                  <p>-----------------.</p>
+                  <p class="prezzo">€ -,--</p>
+                </div>
+                <img style="border-radius: 15px; border: solid 2px rgba(255, 0, 0, 0.628);" src="piattiPranzo/t5.jpg" alt="">
+              </div>
+
+              <div class="triplo-piatto">
+                <div class="price-and-title">
+                  <p class="codice-piatto">6</p>
+                  <p>-----------------.</p>
+                  <p class="prezzo">€ -,--</p>
+                </div>
+                <img style="border-radius: 15px; border: solid 2px rgba(255, 0, 0, 0.628);" src="piattiPranzo/t6.jpg" alt="">
+              </div>
+
+              <div class="triplo-piatto">
+                <div class="price-and-title">
+                  <p class="codice-piatto">7</p>
+                  <p>-----------------.</p>
+                  <p class="prezzo">€ -,--</p>
+                </div>
+                <img style="border-radius: 15px; border: solid 2px rgba(255, 0, 0, 0.628);" src="piattiPranzo/t8.jpg" alt="">
+              </div>
+
+              <div class="triplo-piatto">
+                <div class="price-and-title">
+                  <p class="codice-piatto">8</p>
+                  <p>-----------------.</p>
+                  <p class="prezzo">€ -,--</p>
+                </div>
+                <img style="border-radius: 15px; border: solid 2px rgba(255, 0, 0, 0.628);" src="piattiPranzo/t9.jpg" alt="">
+              </div>
+  
+            
+
+           <!-- FOOTER -->
+      <footer>
+        <img  src="images/background2.png" alt="">
+        <div class="footer-info">
+          <p>Via Spiniello 79</p>
+          <p>Acerra (NA)</p>
+          <p>3479538788</p>
+          <a href="https://www.instagram.com/sushiliuacerra/?hl=it"><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://www.facebook.com/profile.php?id=100063705404736&refid=52&paipv=0&eav=Afayv_qESkEq6J5xvfvnh03Jl0mozfuBL9YeADMRpaDX062iCs4O-iBtJ3fEVbDhz5Q"><i class="fa-brands fa-facebook"></i></a>
+        </div>
+      </footer>
+      <p class="copyright">Copyright © 2022 Carmine Esposito, All rights reserved.</p>
+      <p class="copyright">Privacy Policy - Terms of Use - Accessibility - Sitemap</p>
+
+    </main>
+
+    <script src="loader.js"></script>
+    <script src="k-list.js"></script>
+    <script src="hamburger_script.js"></script>
+    <link rel="stylesheet" href="style_pranzo.css">
+</body>
+</html>
